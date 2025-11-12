@@ -105,7 +105,7 @@ Since I am leveraging the `firewall-drop` script, a default Active Response scri
 
 Open the `ossec.conf` file, and locate the active response section, paste your rule, something like this at the end of the section:
 
-Access the [Ossec.conf here](ossec.conf)
+Access the [ossec.conf here](ossec.conf)
 
 
 
