@@ -111,6 +111,8 @@ Access the [ossec.conf here](ossec.conf)
 
 Restart your Wazuh manager using `systemctl restart wazuh-manager`, and `systemctl status wazuh-manager`.
 
+Check [images here](images)
+
 Once this is done, any IP address pulled by the [abuse.py](http://abuse.py) script that shows up on any agent’s log will be dropped for 6000 seconds which is 100 minutes. You can increase the time limit as you wish.
 
 ``` 
