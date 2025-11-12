@@ -1,0 +1,8 @@
+<!... Add this to the local_rules.xml file you created. ...>
+<group name="local,threat-intel,">
+  <rule id="100002" level="10">
+    <if_sid>100000</if_sid>
+    <list lookup="match_key" field="srcip">malicious_ips_list</list>
+    <description>Connection from known malicious IP detected</description>
+  </rule>
+</group>
